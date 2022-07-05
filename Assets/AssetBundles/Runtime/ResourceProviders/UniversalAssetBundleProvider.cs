@@ -19,13 +19,13 @@ namespace AssetBundles.ResourceProviders
 
 		public override bool Initialize(string id, string data)
 		{
-			UDebug.LogError($"[AssetBundles] UniversalResourceProvider.Initialize: {id}, data: {data}");
+			UDebug.Log($"[AssetBundles] UniversalResourceProvider.Initialize: {id}, data: {data}");
 			return base.Initialize(id, data);
 		}
 		
 		public override void Provide(ProvideHandle provideHandle)
 		{
-			UDebug.LogError($"[AssetBundles] UniversalResourceProvider.Provide: {m_ProviderId}");
+			UDebug.Log($"[AssetBundles] UniversalResourceProvider.Provide: {m_ProviderId}");
 			m_provider?.Provide(provideHandle);
 		}
 

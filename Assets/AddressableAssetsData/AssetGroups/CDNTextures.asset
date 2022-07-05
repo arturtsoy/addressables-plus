@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CDNTextures
+  m_EditorClassIdentifier: 
+  m_GroupName: CDNTextures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f8405c0bdf5970640a5c6e5fb7cddebc
+  m_SerializeEntries:
+  - m_GUID: 8e27cff30073ba646b594dbc295c14fd
+    m_Address: Assets/Textures/Customization
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ef29fabf5156430f9972dead028e809
+    m_Address: Assets/Textures/Logos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20e6012aa34ad46d3853e83ed20f2be9
+    m_Address: Assets/Textures/Misc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b5f00a253772964ba1e6f4a2c15749b
+    m_Address: Assets/Textures
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - textures
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b5c09aef320017846b8c82aaae72d986, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 20222b9d7070a354a8b0ac96cf9b6e21, type: 2}
+    - {fileID: 11400000, guid: c682824b99caab345963163f376a79e1, type: 2}

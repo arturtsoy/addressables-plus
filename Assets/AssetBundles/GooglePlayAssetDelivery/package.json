@@ -1,0 +1,19 @@
+{
+  "name": "be.khepri.play.assetdelivery.addressables",
+  "version": "1.0.0-rc4",
+  "displayName": "Google Play Asset Delivery - Addressables",
+  "description": "Provide addressables with support for Play Asset Delivery",
+  "unity": "2018.6",
+  "dependencies": {
+    "com.unity.addressables": "1.8.4"
+  },
+  "author": {
+    "name": "Jelte Steijaert",
+    "e-mail": "jelte.steijaert@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@jelte"
+  },
+  "type": "library",
+  "hideInEditor": false
+}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OnDemand
+  m_EditorClassIdentifier: 
+  m_GroupName: OnDemand
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fb8c37d821990324d890920c73420a9d
+  m_SerializeEntries:
+  - m_GUID: 2dbbec26e5b259746ae6ab461c7c4dca
+    m_Address: Prefabs/Capsule
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - resources
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46d5a163e86c7d940a12923676ec91b4
+    m_Address: Assets/Content/SphereMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - on-demand
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c587f377cfad91419354c770bcf8986
+    m_Address: Assets/Content/CapsuleMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - on-demand
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b5c09aef320017846b8c82aaae72d986, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2fa49f986c0adda4b804dd4b83db9b2f, type: 2}
+    - {fileID: 11400000, guid: fc54b8d7bddc3564bb9495f3982d0ff3, type: 2}
+    - {fileID: 11400000, guid: 3527299bc4fc03e4a89c33eaf1257672, type: 2}

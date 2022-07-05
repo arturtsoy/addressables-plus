@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: InstallTime
+  m_EditorClassIdentifier: 
+  m_GroupName: InstallTime
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ebc752db072247e4e9a5f39259435fb8
+  m_SerializeEntries:
+  - m_GUID: d939804f921384767b48184ec8a6d7eb
+    m_Address: Assets/Textures/Icons
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3923fde39e7c6c14f81a20e998f099f7
+    m_Address: Prefabs/Sphere
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b5c09aef320017846b8c82aaae72d986, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bb10c50aaee129a43a072c651e8c843e, type: 2}
+    - {fileID: 11400000, guid: ddd7a3ef46031284aab7afa0efc3d49f, type: 2}

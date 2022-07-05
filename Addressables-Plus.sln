@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Review", "Google.Play.Review.csproj", "{54dd4027-c84f-6be8-7d8e-76fe878a252e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AssetDelivery", "Google.Play.AssetDelivery.csproj", "{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF", "StompyRobot.SRF.csproj", "{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger", "StompyRobot.SRDebugger.csproj", "{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khepri.AssetDelivery", "Khepri.AssetDelivery.csproj", "{34b94b46-e408-9254-0868-90015176cac5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{83cfa4f5-32ab-c3cb-645d-393b39c5d411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Common", "Google.Play.Common.csproj", "{42020f0a-eb27-73fd-0896-0d8d04709264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AppUpdate", "Google.Play.AppUpdate.csproj", "{2ffbc33a-7f8b-33ef-28af-d29e869273e3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant", "Google.Play.Instant.csproj", "{72810fbf-4277-c52a-e902-d0e4c360c808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{5e342493-43b1-f02c-a14e-a670c1159746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant.Editor", "Google.Play.Instant.Editor.csproj", "{e5a2d89f-892b-cfd3-ba62-5cfab9222804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{db541336-ff0b-895c-3303-bc4d0b0c695f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF.Editor", "StompyRobot.SRF.Editor.csproj", "{5f537232-816d-e265-cc5a-c11e719d1bb3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Editor", "StompyRobot.SRDebugger.Editor.csproj", "{6da4cded-688a-7c67-2f86-c0800bb843b8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{a309c9e7-8542-f6ea-14ff-4372467d1dab}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khepri.AssetDelivery.Editor", "Khepri.AssetDelivery.Editor.csproj", "{8c037a41-1319-c0c2-d508-d21b3a3ed7be}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54dd4027-c84f-6be8-7d8e-76fe878a252e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54dd4027-c84f-6be8-7d8e-76fe878a252e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34b94b46-e408-9254-0868-90015176cac5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34b94b46-e408-9254-0868-90015176cac5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42020f0a-eb27-73fd-0896-0d8d04709264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42020f0a-eb27-73fd-0896-0d8d04709264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ffbc33a-7f8b-33ef-28af-d29e869273e3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ffbc33a-7f8b-33ef-28af-d29e869273e3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72810fbf-4277-c52a-e902-d0e4c360c808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72810fbf-4277-c52a-e902-d0e4c360c808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5e342493-43b1-f02c-a14e-a670c1159746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5e342493-43b1-f02c-a14e-a670c1159746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8c037a41-1319-c0c2-d508-d21b3a3ed7be}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8c037a41-1319-c0c2-d508-d21b3a3ed7be}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

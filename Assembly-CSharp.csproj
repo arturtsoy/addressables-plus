@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{bdca611d-c259-77a7-daaa-93ec08f98b69}</ProjectGuid>
+    <ProjectGuid>{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2020_3_34;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_34;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\ButtonInteraction.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\Constants.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\SkuDetails.cs" />
+     <Compile Include="Assets\AssetBundles\Runtime\ResourceProviders\UniversalAssetBundleProvider.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\JniUtils.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\GooglePlayBillingUtil.cs" />
      <Compile Include="Assets\Demo.cs" />
@@ -75,7 +76,6 @@
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\PurchaseUpdatedListener.cs" />
      <Compile Include="Assets\StompyRobot\SROptions\SROptions.Attributes.cs" />
      <Compile Include="Assets\GooglePlayPlugins\com.google.play.billing\Runtime\Scripts\Internal\Purchase.cs" />
-     <Compile Include="Assets\AssetBundles\Runtime\ResourceProviders\UniversalAssetBundleProvider.cs" />
      <None Include="Assets\GooglePlayPlugins\com.google.play.common\package.json" />
      <None Include="Assets\GooglePlayPlugins\com.google.play.billing\package.json" />
      <None Include="Assets\GooglePlayPlugins\com.google.play.appupdate\Proguard\app_update.txt" />
@@ -116,6 +116,12 @@
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -270,6 +276,9 @@
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
      </Reference>
@@ -304,7 +313,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -658,141 +667,141 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.CacheServer">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Addressables">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ResourceManager">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Addressables.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>F:\CarX\projects\Addressables-Sample-master\Advanced\Play Asset Delivery\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>F:\CarX\projects\Addressables-Plus\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="StompyRobot.SRF.Editor.csproj">
-      <Project>{8e3dca7b-ce77-70bb-8426-df714b99ce33}</Project>
+      <Project>{5f537232-816d-e265-cc5a-c11e719d1bb3}</Project>
       <Name>StompyRobot.SRF.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="StompyRobot.SRDebugger.csproj">
-      <Project>{e3d0dd16-45c2-5183-c87b-3b1467dd771c}</Project>
+      <Project>{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}</Project>
       <Name>StompyRobot.SRDebugger</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Core.csproj">
-      <Project>{22236a68-f153-74a7-7775-49ebfc58dda7}</Project>
+      <Project>{83cfa4f5-32ab-c3cb-645d-393b39c5d411}</Project>
       <Name>Google.Play.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.AssetDelivery.csproj">
-      <Project>{1716d155-2101-2f71-19ba-f89ddd6e29b2}</Project>
+      <Project>{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}</Project>
       <Name>Google.Play.AssetDelivery</Name>
     </ProjectReference>
     <ProjectReference Include="StompyRobot.SRDebugger.Editor.csproj">
-      <Project>{6ece8420-2a42-2da1-0e74-068ee808a613}</Project>
+      <Project>{6da4cded-688a-7c67-2f86-c0800bb843b8}</Project>
       <Name>StompyRobot.SRDebugger.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Review.csproj">
-      <Project>{c25ec08f-f099-696a-950a-ccc78540ee56}</Project>
+      <Project>{54dd4027-c84f-6be8-7d8e-76fe878a252e}</Project>
       <Name>Google.Play.Review</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Instant.csproj">
-      <Project>{7d2c0fb5-bab5-bb55-a039-9d597224a552}</Project>
+      <Project>{72810fbf-4277-c52a-e902-d0e4c360c808}</Project>
       <Name>Google.Play.Instant</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.AppUpdate.csproj">
-      <Project>{3a7cc2dc-633c-9966-7966-09842b59431d}</Project>
+      <Project>{2ffbc33a-7f8b-33ef-28af-d29e869273e3}</Project>
       <Name>Google.Play.AppUpdate</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Billing.Editor.csproj">
-      <Project>{4afa3377-857b-4543-74a4-1b6146b3277a}</Project>
+      <Project>{a309c9e7-8542-f6ea-14ff-4372467d1dab}</Project>
       <Name>Google.Play.Billing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Instant.Editor.csproj">
-      <Project>{0b25e0bc-e6ec-a89b-7acf-11a457cfb487}</Project>
+      <Project>{e5a2d89f-892b-cfd3-ba62-5cfab9222804}</Project>
       <Name>Google.Play.Instant.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Khepri.AssetDelivery.csproj">
+      <Project>{34b94b46-e408-9254-0868-90015176cac5}</Project>
+      <Name>Khepri.AssetDelivery</Name>
+    </ProjectReference>
+    <ProjectReference Include="Khepri.AssetDelivery.Editor.csproj">
+      <Project>{8c037a41-1319-c0c2-d508-d21b3a3ed7be}</Project>
+      <Name>Khepri.AssetDelivery.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
-      <Project>{c70e7822-d364-425b-6934-7636a98e7505}</Project>
+      <Project>{5e342493-43b1-f02c-a14e-a670c1159746}</Project>
       <Name>Google.Android.AppBundle.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="StompyRobot.SRF.csproj">
-      <Project>{3ee0b7fe-a36e-8ce6-fb96-5afc3328f266}</Project>
+      <Project>{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}</Project>
       <Name>StompyRobot.SRF</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Common.csproj">
-      <Project>{d3be6049-e5a7-4431-22d2-5156f9f66506}</Project>
+      <Project>{42020f0a-eb27-73fd-0896-0d8d04709264}</Project>
       <Name>Google.Play.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="Khepri.AssetDelivery.Editor.csproj">
-      <Project>{1c7d768d-2676-5286-136d-9c144ca2be66}</Project>
-      <Name>Khepri.AssetDelivery.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Khepri.AssetDelivery.csproj">
-      <Project>{dbbe6a30-2983-cebb-92fa-1de3ae967973}</Project>
-      <Name>Khepri.AssetDelivery</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

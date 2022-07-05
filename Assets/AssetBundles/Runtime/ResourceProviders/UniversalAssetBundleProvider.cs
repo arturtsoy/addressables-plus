@@ -13,6 +13,8 @@ namespace AssetBundles.ResourceProviders
 		private AssetBundles.GooglePlayAssetDelivery.ResourceProviders.GoogleAssetBundleAsyncProvider m_provider = new AssetBundles.GooglePlayAssetDelivery.ResourceProviders.GoogleAssetBundleAsyncProvider();
 #elif UNITY_IOS
 		private AssetBundles.AppleOnDemandResources.ResourceProviders.AppleAssetBundleProvider m_provider = new AssetBundles.AppleOnDemandResources.ResourceProviders.AppleAssetBundleProvider();
+#else
+        private ResourceProviderBase m_provider = null;
 #endif
 
 		public override bool Initialize(string id, string data)
@@ -24,17 +26,17 @@ namespace AssetBundles.ResourceProviders
 		public override void Provide(ProvideHandle provideHandle)
 		{
 			UDebug.LogError($"[AssetBundles] UniversalResourceProvider.Provide: {m_ProviderId}");
-			m_provider.Provide(provideHandle);
+			m_provider?.Provide(provideHandle);
 		}
 
 	    public override Type GetDefaultType(IResourceLocation location)
 	    {
-		    return m_provider.GetDefaultType(location);
+		    return m_provider?.GetDefaultType(location);
 	    }
 
 	    public override void Release(IResourceLocation location, object asset)
 	    {
-		    m_provider.Release(location, asset);
+		    m_provider?.Release(location, asset);
 	    }
     }
 }

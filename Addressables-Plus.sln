@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger", "StompyRobot.SRDebugger.csproj", "{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khepri.AssetDelivery", "Khepri.AssetDelivery.csproj", "{34b94b46-e408-9254-0868-90015176cac5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery", "AssetBundles.GooglePlayAssetDelivery.csproj", "{c90f2338-ae0d-26d4-1b15-3583e37495d9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{83cfa4f5-32ab-c3cb-645d-393b39c5d411}"
 EndProject
@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Edit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{a309c9e7-8542-f6ea-14ff-4372467d1dab}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khepri.AssetDelivery.Editor", "Khepri.AssetDelivery.Editor.csproj", "{8c037a41-1319-c0c2-d508-d21b3a3ed7be}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery.Editor", "AssetBundles.GooglePlayAssetDelivery.Editor.csproj", "{f2a8e550-91fd-1b9d-35c9-211c944f9c14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,8 +50,8 @@ Global
 		{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34b94b46-e408-9254-0868-90015176cac5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34b94b46-e408-9254-0868-90015176cac5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c90f2338-ae0d-26d4-1b15-3583e37495d9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c90f2338-ae0d-26d4-1b15-3583e37495d9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42020f0a-eb27-73fd-0896-0d8d04709264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,8 +72,8 @@ Global
 		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8c037a41-1319-c0c2-d508-d21b3a3ed7be}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8c037a41-1319-c0c2-d508-d21b3a3ed7be}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f2a8e550-91fd-1b9d-35c9-211c944f9c14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f2a8e550-91fd-1b9d-35c9-211c944f9c14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

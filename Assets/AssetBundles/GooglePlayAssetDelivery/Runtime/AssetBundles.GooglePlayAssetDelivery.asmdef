@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Khepri.AssetDelivery",
+    "name": "AssetBundles.GooglePlayAssetDelivery",
     "references": [
         "Unity.Addressables",
         "Unity.ResourceManager",

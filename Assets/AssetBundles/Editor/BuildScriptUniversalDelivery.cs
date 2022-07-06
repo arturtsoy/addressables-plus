@@ -6,9 +6,6 @@ namespace AssetBundles.Editor
     [CreateAssetMenu(fileName = "BuildScriptUniversalDelivery.asset", menuName = "Addressables/Custom Build/Universal Delivery")]
     public partial class BuildScriptUniversalDelivery : BuildScriptPackedMode
     {
-        public override string Name
-        {
-            get { return "Universal Delivery"; }
-        }
+        public override string Name => "Universal Delivery";
     }
 }

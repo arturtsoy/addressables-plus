@@ -15,7 +15,7 @@ namespace AssetBundles.GooglePlayAssetDelivery.Editor
 {
     public partial class AssetPackBuilder
     {
-	    public static string BuildPath => "Library/com.carx-tech.sr/StreamingAssetsCopy/";
+	    public static string BuildPath => "Library/com.carxtech.sr/StreamingAssetsCopy/";
 
 	    public static string GetLocalBuildPath()
 	    {

@@ -21,6 +21,7 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
             m_provideHandle = provideHandle;
             
             string bundleName = Path.GetFileNameWithoutExtension(m_provideHandle.Location.InternalId);
+            Debug.Log($"[ODR] AppleAssetBundleProvider.Provide: bundleName: {bundleName}");
             
             if (!OnDemandResourcesRuntimeData.Instance.BundleNameToAssetPack.ContainsKey(bundleName))
             {
@@ -42,8 +43,7 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
                 else
                 {
                     // Download the asset pack
-                    
-                    string tag = "odr"; // TODO: Replace tag
+                    string tag = bundleName; // TODO: Replace tag
 
                     m_provideHandle.SetProgressCallback(PercentComplete);
                     m_request = UnityEngine.iOS.OnDemandResources.PreloadAsync(new[] { tag });

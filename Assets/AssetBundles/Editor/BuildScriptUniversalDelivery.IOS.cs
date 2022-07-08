@@ -65,10 +65,11 @@ namespace AssetBundles.Editor
 			
             string[] bundlesPaths = Directory.GetFiles(buildPath, "*.bundle", SearchOption.TopDirectoryOnly);
 
-            foreach (var bundlePath in bundlesPaths) // bundle = //Library/com.unity.addressables/aa/Android/Android\fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764.bundle
+            foreach (string bundlePath in bundlesPaths)
             {
-                result.Add(new UnityEditor.iOS.Resource("odr", bundlePath).AddOnDemandResourceTags("odr"));
-                Debug.LogFormat($"[ODR] AddOnDemandResourceTags for: {buildPath}");
+                string bundleName = Path.GetFileNameWithoutExtension(bundlePath); // bundle = Library/com.carxtech.sr/StreamingAssetsCopy/world2_assets_all_c271ef7acf3a528b089eeb7ae296ed6b.bundle
+                Debug.LogFormat($"[ODR] AddOnDemandResourceTags for: name: '{bundleName}' with path '{bundlePath}'");
+                result.Add(new UnityEditor.iOS.Resource(bundleName, bundlePath).AddOnDemandResourceTags(bundleName));
             }
 			
             Debug.Log("[ODR] CollectResources Complete!");
@@ -78,16 +79,7 @@ namespace AssetBundles.Editor
         private static string GetLocalBuildPath()
 	    {
             return AssetPackBuilder.BuildPath;
-            
-            /*//buildPath = Library/com.unity.addressables/aa/iOS/iOS
-		    var settings =  UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject.Settings;
-		    var profileSettings = settings.profileSettings;
-		    var profileId = settings.activeProfileId;
-		    var value = profileSettings.GetValueByName(profileId, UnityEditor.AddressableAssets.Settings.AddressableAssetSettings.kLocalBuildPath);
-		    
-		    return profileSettings.EvaluateString(profileId, value);*/
-
-	    }
+        }
 #endif
     }
 }

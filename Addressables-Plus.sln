@@ -25,11 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Ed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant.Editor", "Google.Play.Instant.Editor.csproj", "{e5a2d89f-892b-cfd3-ba62-5cfab9222804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{db541336-ff0b-895c-3303-bc4d0b0c695f}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF.Editor", "StompyRobot.SRF.Editor.csproj", "{5f537232-816d-e265-cc5a-c11e719d1bb3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Editor", "StompyRobot.SRDebugger.Editor.csproj", "{6da4cded-688a-7c67-2f86-c0800bb843b8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{db541336-ff0b-895c-3303-bc4d0b0c695f}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{a309c9e7-8542-f6ea-14ff-4372467d1dab}"
 EndProject
@@ -64,12 +64,12 @@ Global
 		{5e342493-43b1-f02c-a14e-a670c1159746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f2a8e550-91fd-1b9d-35c9-211c944f9c14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

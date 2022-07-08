@@ -15,10 +15,10 @@ namespace AssetBundles.Editor
 	    
 	    public static string GetLocalBuildPath()
 	    {
-		    var settings = AddressableAssetSettingsDefaultObject.Settings;
-		    var profileSettings = settings.profileSettings;
-		    var profileId = settings.activeProfileId;
-		    var value = profileSettings.GetValueByName(profileId, AddressableAssetSettings.kLocalBuildPath);
+		    AddressableAssetSettings settings = AddressableAssetSettingsDefaultObject.Settings;
+		    AddressableAssetProfileSettings profileSettings = settings.profileSettings;
+		    string profileId = settings.activeProfileId;
+		    string value = profileSettings.GetValueByName(profileId, AddressableAssetSettings.kLocalBuildPath);
 
 		    return profileSettings.EvaluateString(profileId, value);
 	    }
@@ -44,7 +44,7 @@ namespace AssetBundles.Editor
 			{
 				return;
 			}
-			var bundles = GetBundles(buildPath); // buildPath = Library/com.unity.addressables/aa/Android/Android
+			AssetPackBundle[] bundles = GetBundles(buildPath); // buildPath = Library/com.unity.addressables/aa/Android/Android
 
 			if (Directory.Exists(BuildPath))
 			{
@@ -52,7 +52,7 @@ namespace AssetBundles.Editor
 			}
 			Directory.CreateDirectory(BuildPath);
 
-			foreach (var bundle in bundles) // bundle = //Library/com.unity.addressables/aa/Android/Android\fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764.bundle
+			foreach (AssetPackBundle bundle in bundles) // bundle = //Library/com.unity.addressables/aa/Android/Android\fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764.bundle
 			{
 				string targetPath = Path.Combine(BuildPath, bundle.Name);  // bundle.Name = fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764
 				//Directory.CreateDirectory(targetPath);

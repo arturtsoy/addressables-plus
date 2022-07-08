@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a3c5d64ac83548c09dd1678b9f6f1cd, type: 3}
-  m_Name: AppleOnDemandResourcesAssetGroupTemplate
+  m_Name: UniversalAssetGroupTemplate
   m_EditorClassIdentifier: 
   m_SchemaObjects:
   - {fileID: 5694549260806058979}
@@ -30,9 +30,6 @@ MonoBehaviour:
   m_Name: OnDemandResourcesSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 0}
-  m_AssetPackIndex: 0
-  m_IncludeInAssetPack: 1
-  m_Settings: {fileID: 0}
 --- !u!114 &5694549260806058979
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,8 +52,8 @@ MonoBehaviour:
   m_CacheClearBehavior: 0
   m_IncludeInBuild: 1
   m_BundledAssetProviderType:
-    m_AssemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    m_ClassName: AssetBundles.AppleOnDemandResources.OnDemandResourcesAssetBundleProvider
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
   m_ForceUniqueProvider: 0
   m_UseAssetBundleCache: 1
   m_UseAssetBundleCrc: 1
@@ -67,12 +64,12 @@ MonoBehaviour:
   m_RedirectLimit: -1
   m_RetryCount: 0
   m_BuildPath:
-    m_Id: 98a52e9d803ec3346ba8a7d5ab6e825e
+    m_Id: 7045520c024ad2d46aa1accde701a75c
   m_LoadPath:
-    m_Id: 800720f8a751d4347b4890e7c696651d
+    m_Id: 1b23114a82a830442ab423fc99d06826
   m_BundleMode: 0
   m_AssetBundleProviderType:
     m_AssemblyName: Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-    m_ClassName: AssetBundles.AppleOnDemandResources.OnDemandResourcesAssetBundleProvider
+    m_ClassName: AssetBundles.ResourceProviders.UniversalAssetBundleProvider
   m_BundleNaming: 0
   m_AssetLoadMode: 0

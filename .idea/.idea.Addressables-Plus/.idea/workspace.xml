@@ -10,6 +10,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/AddressableAssetSettingsDefaultObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/AddressableAssetGroupSchema.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/CacheInitializationSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/DocCodeExamples/ActionExamples.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,6 +72,7 @@
       <updated>1657044350388</updated>
       <workItem from="1657044354450" duration="951000" />
       <workItem from="1657110794005" duration="3994000" />
+      <workItem from="1657261043174" duration="2660000" />
     </task>
     <servers />
   </component>

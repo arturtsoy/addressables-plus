@@ -41,22 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetBundles\Editor\AssetPackBundle.Android.cs" />
      <Compile Include="Assets\AssetBundles\Editor\BuildScriptUniversalDelivery.Android.cs" />
-     <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\BuildScriptOnDemandResources.cs" />
      <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\OnDemandResourcesSchema.cs" />
      <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\BuildProcessorData.cs" />
-     <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\CustomAssetPackSettingsInspector.cs" />
-     <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\OnDemandResourcesInitializationSettings.cs" />
-     <Compile Include="Assets\AssetBundles\Editor\GroupSchemas\AssetGroupSchema.cs" />
      <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\OnDemandResourcesBuildProcessor.cs" />
      <Compile Include="Assets\AssetBundles\Editor\AssetPackBuilder.IOS.cs" />
      <Compile Include="Assets\AssetBundles\Editor\BuildScriptUniversalDelivery.cs" />
      <Compile Include="Assets\AssetBundles\Editor\BuildScriptUniversalDelivery.IOS.cs" />
-     <Compile Include="Assets\AssetBundles\Editor\GroupSchemas\AssetGroupSchema.Android.cs" />
-     <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\BuildAssetBundlesEditor.cs" />
-     <Compile Include="Assets\AssetBundles\Editor\BuildScriptOnDemandResources2.cs" />
-     <Compile Include="Assets\AssetBundles\AppleOnDemandResources\Editor\CustomAssetPackSettings.cs" />
      <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.169_manifest.txt" />
      <None Include="Assets\GooglePlayPlugins\com.google.play.core\Editor\PlayCoreDependencies.xml" />
      <Reference Include="UnityEngine">

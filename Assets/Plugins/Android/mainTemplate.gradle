@@ -18,7 +18,7 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
-    implementation 'com.google.android.play:core:1.10.3' // Assets/GooglePlayPlugins/com.google.play.core/Editor/PlayCoreDependencies.xml:3
+    implementation 'com.google.android.play:core:1.10.3' // Assets/GooglePlayPlugins/com.google.play.core/Editor/PlayCoreDependencies.xml:4
 // Android Resolver Dependencies End
 **DEPS**}
 

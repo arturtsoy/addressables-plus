@@ -1,11 +1,7 @@
 using System;
-using System.Collections;
 using System.ComponentModel;
 using System.IO;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
-using UnityEngine.Android;
-using UnityEngine.iOS;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using AsyncOperation = UnityEngine.AsyncOperation;
@@ -15,9 +11,10 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
     [DisplayName("Apple Asset Bundle Provider")]
     public class AppleAssetBundleProvider : AssetBundleProvider
     {
+        #if UNITY_IOS
         private ProvideHandle m_provideHandle;
         private AssetBundle m_assetBundle;
-        private OnDemandResourcesRequest m_request;
+        private UnityEngine.iOS.OnDemandResourcesRequest m_request;
 
         public override void Provide(ProvideHandle provideHandle)
         {
@@ -49,11 +46,10 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
                     string tag = "odr"; // TODO: Replace tag
 
                     m_provideHandle.SetProgressCallback(PercentComplete);
-                    m_request = OnDemandResources.PreloadAsync(new[] { tag });
+                    m_request = UnityEngine.iOS.OnDemandResources.PreloadAsync(new[] { tag });
                     m_request.completed += request => OnRequestCompleted(tag, request);
                 }
             }
-            
         }
 
         private float PercentComplete()
@@ -96,5 +92,6 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
                 m_request = null;
             }
         }
+#endif
     }
 }

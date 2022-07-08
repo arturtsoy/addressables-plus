@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "wcrsd6zdcemrf6fy",
     "m_SelectedPackage": {
         "deviceId": "wcrsd6zdcemrf6fy",
-        "name": "com.carxtech.sr",
-        "processId": 11680,
+        "name": "com.carxtech.addressables",
+        "processId": 14075,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,12 @@
             "deviceId": "wcrsd6zdcemrf6fy",
             "name": "com.carxtech.sr",
             "processId": 11680,
+            "exited": false
+        },
+        {
+            "deviceId": "wcrsd6zdcemrf6fy",
+            "name": "com.carxtech.addressables",
+            "processId": 14075,
             "exited": false
         }
     ],

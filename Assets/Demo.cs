@@ -14,6 +14,10 @@ public class Demo : MonoBehaviour
 	public List<string> labels = new List<string> {"preload", "default"};
 	private IEnumerator Start()
 	{
+		Debug.Log($"Application.dataPath: '{Application.dataPath}'");
+		Debug.Log($"Application.streamingAssetsPath: '{Application.streamingAssetsPath}'");
+		Debug.Log($"Application.persistentDataPath: '{Application.persistentDataPath}'"
+		);
 		instance = this;
 	    if (downloadDependencies)
 	    {

@@ -556,7 +556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: Prefabs/Capsule
   parent: {fileID: 962998412}
-  loadAsync: 0
+  loadAsync: 1
   waitingOneFrame: 1
 --- !u!1 &641016855
 GameObject:
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: Prefabs/Sphere
   parent: {fileID: 1881472396}
-  loadAsync: 0
+  loadAsync: 1
   waitingOneFrame: 1
 --- !u!1 &1301696221
 GameObject:
@@ -1425,7 +1425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: Prefabs/Cube
   parent: {fileID: 407949778}
-  loadAsync: 0
+  loadAsync: 1
   waitingOneFrame: 1
 --- !u!1 &1881472392
 GameObject:

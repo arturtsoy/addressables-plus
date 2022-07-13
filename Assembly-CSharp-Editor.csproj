@@ -45,9 +45,7 @@
      <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesSchema.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBuilder.Android.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBundle.cs" />
-     <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/PlayAssetPackBundlesPreprocessor.cs" />
-     <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesBuildProcessor.cs" />
      <Compile Include="Assets/AssetBundles/Editor/AssetPackBuilder.IOS.cs" />
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackGroupSchema.cs" />

@@ -2,6 +2,7 @@
 using System.IO;
 using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
+using AssetBundles;
 
 namespace AssetBundles.GooglePlayAssetDelivery.ResourceHandlers
 {

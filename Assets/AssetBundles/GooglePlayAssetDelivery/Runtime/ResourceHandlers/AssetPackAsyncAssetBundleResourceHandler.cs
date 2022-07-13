@@ -32,6 +32,7 @@ namespace AssetBundles.GooglePlayAssetDelivery.ResourceHandlers
                 return;
             }
             var assetLocation = request.GetAssetLocation(assetPackName);
+            AddressablesAssetDelivery.AssociateAssetPackNameWithAssetBundlePath(assetPackName, assetLocation.Path);
             m_RequestOperation = AssetBundle.LoadFromFileAsync(assetLocation.Path, /* crc= */ 0, assetLocation.Offset);
             if (m_RequestOperation.isDone)
             {

@@ -1,10 +1,14 @@
 ﻿#if UNITY_IOS
 
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AssetBundles.AppleOnDemandResources;
 using AssetBundles.AppleOnDemandResources.Editor;
+using UnityEditor;
 using UnityEditor.AddressableAssets;
 using UnityEditor.AddressableAssets.Settings;
+using UnityEngine;
 using Debug = UnityEngine.Debug;
 
 namespace AssetBundles.Editor
@@ -52,7 +56,7 @@ namespace AssetBundles.Editor
 			}
 			Directory.CreateDirectory(BuildPath);
 
-			foreach (AssetPackBundle bundle in bundles) // bundle = //Library/com.unity.addressables/aa/Android/Android\fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764.bundle
+			foreach (AssetPackBundle bundle in bundles) // bundle = //Library/com.unity.addressables/aa/iOS/iOS/fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764.bundle
 			{
 				string targetPath = Path.Combine(BuildPath, bundle.Name);  // bundle.Name = fastfollow_assets_all_2384a0162231cfa4bb37d5bf38510764
 				//Directory.CreateDirectory(targetPath);
@@ -61,7 +65,7 @@ namespace AssetBundles.Editor
 				//assetPackConfig.AssetPacks.Add(bundle.Name, bundle.CreateAssetPack(textureCompressionFormat, bundlePath));
 			}
 			
-			//WriteAssetPackConfig(bundles);
+			WriteAssetPackConfig(bundles);
 			// AssetPackConfigSerializer.SaveConfig(assetPackConfig);
 			// return assetPackConfig;
 			Debug.LogFormat("[AssetBundles] {0}.{1} Complete", nameof(AssetPackBuilder), nameof(CreateAssetPacks));
@@ -79,6 +83,32 @@ namespace AssetBundles.Editor
 		{
 			// Keep in sync with Library/PackageCache/com.unity.addressables@x.x.x/Editor/Build/DataBuilders/BuildScriptPackedMode.cs#819
 			return assetGroup.Name.Replace(" ", "").Replace('\\', '/').Replace("//", "/").ToLower();
+		}
+		
+		private static void WriteAssetPackConfig(IEnumerable<AssetPackBundle> packBundles)
+		{
+			AssetPackBundleConfig config = GetOrCreateConfig();
+			config.packs = packBundles.Select(pack => pack.Name).ToArray();
+			Debug.LogFormat("[{0}.{1}] path={2}", nameof(AssetPackBuilder), nameof(WriteAssetPackConfig), AssetPackBundleConfig.PATH);
+			EditorUtility.SetDirty(config);
+			AssetDatabase.SaveAssets();
+			AssetDatabase.Refresh();
+		}
+		
+		private static AssetPackBundleConfig GetOrCreateConfig()
+		{
+			AssetPackBundleConfig config = AssetDatabase.LoadAssetAtPath<AssetPackBundleConfig>(AssetPackBundleConfig.PATH);
+			if (config == null)
+			{
+				config = ScriptableObject.CreateInstance<AssetPackBundleConfig>();
+				var basePath = Path.GetDirectoryName(AssetPackBundleConfig.PATH);
+				if (!Directory.Exists(basePath))
+				{
+					Directory.CreateDirectory(basePath);
+				}
+				AssetDatabase.CreateAsset(config, AssetPackBundleConfig.PATH);
+			}
+			return config;
 		}
     }
 

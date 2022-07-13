@@ -7,7 +7,6 @@ namespace AssetBundles.AppleOnDemandResources.Editor
     public class BuildProcessorDataEntry
     {
         public string BundleBuildPath;
-
         public string AssetsSubfolderPath;
 
         public BuildProcessorDataEntry(string bundleBuildPath, string assetsSubfolderPath)

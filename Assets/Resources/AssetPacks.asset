@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ba35831a60740d98d650001ecff786c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9998eac29f484a0da117d5b338f4ba4b, type: 3}
   m_Name: AssetPacks
   m_EditorClassIdentifier: 
   packs:
-  - fastfollow_assets_all_5a641169e7798e52692934255d340a45
-  - installtime_assets_all_592c5314553909d5bdbe1b318cfab044
-  - ondemand_assets_all_844765bdde43d78259f319cbd5961f16
-  - world2_assets_all_c271ef7acf3a528b089eeb7ae296ed6b
-  - world_assets_all_1bb755e0e95b68c0cb5194a3038d9867
+  - fastfollow_assets_all_ffb74652c4976f5ba3435c909e47bb43.bundle
+  - installtime_assets_all_5f3da29bb446a276d2d86ba4cf0f0906.bundle
+  - odr-first_assets_all_56d386c2d28517b3746c51304c10ae3d.bundle
+  - ondemand_assets_all_92575f50c24d12c5e76b01215767ccc1.bundle
+  - world2_assets_all_c271ef7acf3a528b089eeb7ae296ed6b.bundle
+  - world_assets_all_1bb755e0e95b68c0cb5194a3038d9867.bundle

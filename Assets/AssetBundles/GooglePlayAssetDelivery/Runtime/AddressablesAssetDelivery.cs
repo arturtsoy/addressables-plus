@@ -8,6 +8,7 @@ using AssetBundles.GooglePlayAssetDelivery.ResourceProviders;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceLocations;
+using UnityEngine.ResourceManagement.ResourceProviders;
 using UDebug = UnityEngine.Debug;
 
 namespace AssetBundles.GooglePlayAssetDelivery
@@ -17,9 +18,29 @@ namespace AssetBundles.GooglePlayAssetDelivery
         private static AssetPackBundleConfig config;
         private static bool isInitialized;
 
+        private static Dictionary<string, string> assetPackNameToAssetBundlePathMap = new Dictionary<string, string>(); 
+
         public static bool handleSynchronously
         {
             set => GoogleAssetBundleSyncProvider.handleSynchronously = value;
+        }
+
+        internal static void AssociateAssetPackNameWithAssetBundlePath(string assetPackName, string assetBundlePath)
+        {
+            assetPackNameToAssetBundlePathMap[assetPackName] = assetBundlePath;
+        }
+        
+        private static string TransformFunc(IResourceLocation location)
+        {
+            if (location.ResourceType == typeof(IAssetBundleResource))
+            {
+                string bundleName = Path.GetFileNameWithoutExtension(location.InternalId);
+                if (assetPackNameToAssetBundlePathMap.TryGetValue(bundleName, out var bundlePath))
+                {
+                    return bundlePath;
+                }
+            }
+            return location.InternalId;
         }
 
         private static void TryInitialize()
@@ -33,6 +54,8 @@ namespace AssetBundles.GooglePlayAssetDelivery
             {
                 Debug.LogFormat("[{0}.{1}] config not found. (Filename={2})", nameof(AddressablesAssetDelivery), nameof(TryInitialize), AssetPackBundleConfig.FILENAME);
             }
+
+            Addressables.InternalIdTransformFunc = TransformFunc;
             isInitialized = true;
         }
         

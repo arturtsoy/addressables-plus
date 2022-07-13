@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439403, g: 0.4931519, b: 0.5722083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -557,7 +557,7 @@ MonoBehaviour:
   key: Prefabs/Capsule
   parent: {fileID: 962998412}
   loadAsync: 0
-  waitingOneFrame: 0
+  waitingOneFrame: 1
 --- !u!1 &641016855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: Prefabs/Sphere
   parent: {fileID: 1881472396}
-  loadAsync: 1
+  loadAsync: 0
   waitingOneFrame: 1
 --- !u!1 &1301696221
 GameObject:

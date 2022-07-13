@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using AssetBundles;
 using AssetBundles.GooglePlayAssetDelivery.ResourceHandlers;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;

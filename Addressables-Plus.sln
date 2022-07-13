@@ -1,79 +1,79 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Review", "Google.Play.Review.csproj", "{54dd4027-c84f-6be8-7d8e-76fe878a252e}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Review", "Google.Play.Review.csproj", "{4c4aedb3-89f8-aa94-ec60-1e2cbddf8af6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AssetDelivery", "Google.Play.AssetDelivery.csproj", "{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AssetDelivery", "Google.Play.AssetDelivery.csproj", "{617b1b19-94af-c0d8-2542-090733da9183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF", "StompyRobot.SRF.csproj", "{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF", "StompyRobot.SRF.csproj", "{2ba353a4-1561-ee65-37cd-3a175aa45993}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2f24cf76-88b1-e863-7f6d-da34c6bb01fd}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger", "StompyRobot.SRDebugger.csproj", "{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger", "StompyRobot.SRDebugger.csproj", "{1060a386-3c6d-b7f8-2e70-64e22a37c965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery", "AssetBundles.GooglePlayAssetDelivery.csproj", "{c90f2338-ae0d-26d4-1b15-3583e37495d9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery", "AssetBundles.GooglePlayAssetDelivery.csproj", "{5da7ce9d-90bf-71f5-4b62-34ea1a8f7811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{83cfa4f5-32ab-c3cb-645d-393b39c5d411}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Core", "Google.Play.Core.csproj", "{b9b147f1-117c-ffbb-a7e5-df7288f2592a}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Common", "Google.Play.Common.csproj", "{42020f0a-eb27-73fd-0896-0d8d04709264}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Common", "Google.Play.Common.csproj", "{3e2e3311-9e75-5ffd-7066-d81b7c921929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AppUpdate", "Google.Play.AppUpdate.csproj", "{2ffbc33a-7f8b-33ef-28af-d29e869273e3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.AppUpdate", "Google.Play.AppUpdate.csproj", "{a8da0097-9bb5-5bb7-336c-d1cc28ed0fcc}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant", "Google.Play.Instant.csproj", "{72810fbf-4277-c52a-e902-d0e4c360c808}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant", "Google.Play.Instant.csproj", "{ff0ee983-a8e4-3b34-29d4-1d845179b05d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{5e342493-43b1-f02c-a14e-a670c1159746}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{90b5ce38-f635-a2f1-5ece-81c5539c1675}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant.Editor", "Google.Play.Instant.Editor.csproj", "{e5a2d89f-892b-cfd3-ba62-5cfab9222804}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Instant.Editor", "Google.Play.Instant.Editor.csproj", "{3ef4de4e-1468-7093-2083-b2f3170c977f}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF.Editor", "StompyRobot.SRF.Editor.csproj", "{5f537232-816d-e265-cc5a-c11e719d1bb3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRF.Editor", "StompyRobot.SRF.Editor.csproj", "{0646c432-839f-fe7d-3dd8-a6d4925d167e}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Editor", "StompyRobot.SRDebugger.Editor.csproj", "{6da4cded-688a-7c67-2f86-c0800bb843b8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StompyRobot.SRDebugger.Editor", "StompyRobot.SRDebugger.Editor.csproj", "{1c276317-6f15-968e-411e-2e09a7d6c743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{db541336-ff0b-895c-3303-bc4d0b0c695f}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{118c5302-df6e-9a72-247c-6af6d36244ab}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{a309c9e7-8542-f6ea-14ff-4372467d1dab}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Play.Billing.Editor", "Google.Play.Billing.Editor.csproj", "{ecab56aa-6a32-4750-2cd9-b83074fda0cd}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery.Editor", "AssetBundles.GooglePlayAssetDelivery.Editor.csproj", "{f2a8e550-91fd-1b9d-35c9-211c944f9c14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetBundles.GooglePlayAssetDelivery.Editor", "AssetBundles.GooglePlayAssetDelivery.Editor.csproj", "{f1c0c66a-43c7-d809-e7bd-6b5483fa21c0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54dd4027-c84f-6be8-7d8e-76fe878a252e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54dd4027-c84f-6be8-7d8e-76fe878a252e}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{acf26df1-e6d1-bcfd-2058-3096b6ce6fd0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4c0e8978-e170-2726-ebfa-987b7d6ffbb0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f2e4c18a-1c11-021f-bb8b-443a11e3cf9c}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f5b1a2a0-cd20-cdc1-bac0-149afbc63742}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{c90f2338-ae0d-26d4-1b15-3583e37495d9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{c90f2338-ae0d-26d4-1b15-3583e37495d9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83cfa4f5-32ab-c3cb-645d-393b39c5d411}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42020f0a-eb27-73fd-0896-0d8d04709264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42020f0a-eb27-73fd-0896-0d8d04709264}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ffbc33a-7f8b-33ef-28af-d29e869273e3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ffbc33a-7f8b-33ef-28af-d29e869273e3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72810fbf-4277-c52a-e902-d0e4c360c808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72810fbf-4277-c52a-e902-d0e4c360c808}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5e342493-43b1-f02c-a14e-a670c1159746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5e342493-43b1-f02c-a14e-a670c1159746}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{e5a2d89f-892b-cfd3-ba62-5cfab9222804}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5f537232-816d-e265-cc5a-c11e719d1bb3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6da4cded-688a-7c67-2f86-c0800bb843b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{db541336-ff0b-895c-3303-bc4d0b0c695f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{a309c9e7-8542-f6ea-14ff-4372467d1dab}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f2a8e550-91fd-1b9d-35c9-211c944f9c14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f2a8e550-91fd-1b9d-35c9-211c944f9c14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4c4aedb3-89f8-aa94-ec60-1e2cbddf8af6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4c4aedb3-89f8-aa94-ec60-1e2cbddf8af6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617b1b19-94af-c0d8-2542-090733da9183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617b1b19-94af-c0d8-2542-090733da9183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ba353a4-1561-ee65-37cd-3a175aa45993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ba353a4-1561-ee65-37cd-3a175aa45993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2f24cf76-88b1-e863-7f6d-da34c6bb01fd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2f24cf76-88b1-e863-7f6d-da34c6bb01fd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1060a386-3c6d-b7f8-2e70-64e22a37c965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1060a386-3c6d-b7f8-2e70-64e22a37c965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5da7ce9d-90bf-71f5-4b62-34ea1a8f7811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5da7ce9d-90bf-71f5-4b62-34ea1a8f7811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b9b147f1-117c-ffbb-a7e5-df7288f2592a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b9b147f1-117c-ffbb-a7e5-df7288f2592a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3e2e3311-9e75-5ffd-7066-d81b7c921929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3e2e3311-9e75-5ffd-7066-d81b7c921929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a8da0097-9bb5-5bb7-336c-d1cc28ed0fcc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a8da0097-9bb5-5bb7-336c-d1cc28ed0fcc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ff0ee983-a8e4-3b34-29d4-1d845179b05d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ff0ee983-a8e4-3b34-29d4-1d845179b05d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90b5ce38-f635-a2f1-5ece-81c5539c1675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90b5ce38-f635-a2f1-5ece-81c5539c1675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ef4de4e-1468-7093-2083-b2f3170c977f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ef4de4e-1468-7093-2083-b2f3170c977f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0646c432-839f-fe7d-3dd8-a6d4925d167e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0646c432-839f-fe7d-3dd8-a6d4925d167e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1c276317-6f15-968e-411e-2e09a7d6c743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1c276317-6f15-968e-411e-2e09a7d6c743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118c5302-df6e-9a72-247c-6af6d36244ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118c5302-df6e-9a72-247c-6af6d36244ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ecab56aa-6a32-4750-2cd9-b83074fda0cd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ecab56aa-6a32-4750-2cd9-b83074fda0cd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f1c0c66a-43c7-d809-e7bd-6b5483fa21c0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f1c0c66a-43c7-d809-e7bd-6b5483fa21c0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

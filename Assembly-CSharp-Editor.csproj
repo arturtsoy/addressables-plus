@@ -43,10 +43,14 @@
   <ItemGroup>
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.Android.cs" />
      <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesSchema.cs" />
+     <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBuilder.Android.cs" />
+     <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBundle.cs" />
      <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs" />
+     <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/PlayAssetPackBundlesPreprocessor.cs" />
      <Compile Include="Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesBuildProcessor.cs" />
      <Compile Include="Assets/AssetBundles/Editor/AssetPackBuilder.IOS.cs" />
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.cs" />
+     <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackGroupSchema.cs" />
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" />
      <None Include="Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.169_manifest.txt" />
      <None Include="Assets/GooglePlayPlugins/com.google.play.core/Editor/PlayCoreDependencies.xml" />
@@ -807,10 +811,6 @@
       <Project>{3ef4de4e-1468-7093-2083-b2f3170c977f}</Project>
       <Name>Google.Play.Instant.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="AssetBundles.GooglePlayAssetDelivery.Editor.csproj">
-      <Project>{f1c0c66a-43c7-d809-e7bd-6b5483fa21c0}</Project>
-      <Name>AssetBundles.GooglePlayAssetDelivery.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
       <Project>{90b5ce38-f635-a2f1-5ece-81c5539c1675}</Project>
       <Name>Google.Android.AppBundle.Editor</Name>
@@ -822,10 +822,6 @@
     <ProjectReference Include="Google.Play.Common.csproj">
       <Project>{3e2e3311-9e75-5ffd-7066-d81b7c921929}</Project>
       <Name>Google.Play.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="AssetBundles.GooglePlayAssetDelivery.csproj">
-      <Project>{5da7ce9d-90bf-71f5-4b62-34ea1a8f7811}</Project>
-      <Name>AssetBundles.GooglePlayAssetDelivery</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

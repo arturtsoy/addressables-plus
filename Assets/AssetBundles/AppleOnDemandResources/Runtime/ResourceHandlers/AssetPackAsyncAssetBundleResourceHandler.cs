@@ -6,6 +6,7 @@ namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
 {
     public class AssetPackAsyncAssetBundleResourceHandler : AssetPackAssetBundleResourceHandlerBase
     {
+        private const string PATH_PREFIX = "res://";
         protected override void BeginOperationImpl(string assetPackName)
         {
             Debug.Log($"[ODR] AssetPackAsyncAssetBundleResourceHandler.BeginOperation assetPackName: {assetPackName}");
@@ -35,21 +36,19 @@ namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
                 CompleteOperation(this, $"Error downloading error pack: {request.error}");
                 return;
             }
-            // if (request.Status != AssetDeliveryStatus.Available)
-            // {
-            //     CompleteOperation(this, $"Error downloading status: {request.Status}");
-            //     return;
-            // }
-            //var assetLocation = request.GetAssetLocation(assetPackName);
-            //AddressablesAssetDelivery.AssociateAssetPackNameWithAssetBundlePath(assetPackName, assetLocation.Path);
+
+            if (!assetPackName.StartsWith(PATH_PREFIX))
+            {
+                assetPackName = PATH_PREFIX + assetPackName;
+            }
+            
+            Debug.Log($"[ODR] AssetPackAsyncAssetBundleResourceHandler.OnPlayAssetPackRequestCompleted AssetBundle.LoadFromFileAsync: {assetPackName}");
+            m_RequestOperation = AssetBundle.LoadFromFileAsync(assetPackName);
             //m_RequestOperation = AssetBundle.LoadFromFileAsync(assetLocation.Path, /* crc= */ 0, assetLocation.Offset);
-            string path = "res://" + assetPackName;
-            Debug.Log($"[ODR] AssetPackAsyncAssetBundleResourceHandler.OnPlayAssetPackRequestCompleted AssetBundle.LoadFromFileAsync: {path}");
-            m_RequestOperation = AssetBundle.LoadFromFileAsync(path);
             
             if (m_RequestOperation.isDone)
             {
-                Debug.Log($"[ODR] AssetPackAsyncAssetBundleResourceHandler.OnPlayAssetPackRequestCompleted AssetBundle.LoadFromFileAsync isDone: {path}");
+                Debug.Log($"[ODR] AssetPackAsyncAssetBundleResourceHandler.OnPlayAssetPackRequestCompleted AssetBundle.LoadFromFileAsync isDone: {assetPackName}");
 
                 LocalMRequestOperationCompleted(m_RequestOperation);
                 return;

@@ -1,5 +1,6 @@
 ﻿#if UNITY_IOS
 using System.IO;
+using AssetBundles.ResourceHandlers;
 using UnityEngine.iOS;
 
 namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
@@ -11,12 +12,6 @@ namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
         protected override bool IsValidPath(string path)
         {
             return true; // TODO: check path
-            // Only handle local bundles
-            // if (!path.StartsWith(Addressables.RuntimePath) || !path.EndsWith(".bundle"))
-            // {
-            //     return false;
-            // }
-            // return AddressablesAssetDelivery.IsPack(Path.GetFileNameWithoutExtension(path));
         }
 
         protected override float PercentComplete()
@@ -36,7 +31,7 @@ namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
             base.Unload();
             if (playAssetPackRequest != null)
             {
-                //playAssetPackRequest.Dispose(); // TODO: .AttemptCancel()
+                playAssetPackRequest.Dispose(); // TODO: .AttemptCancel()
                 playAssetPackRequest = null;
             }
         }

@@ -3,7 +3,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
-namespace AssetBundles.AppleOnDemandResources.ResourceHandlers
+namespace AssetBundles.ResourceHandlers
 {
     public abstract class AssetBundleResourceHandlerBase : IAssetBundleResourceHandler
     {

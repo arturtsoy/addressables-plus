@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel;
-using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UDebug = UnityEngine.Debug;
@@ -9,9 +8,6 @@ namespace AssetBundles.ResourceProviders
 {
 	[DisplayName("Universal Asset Bundle Provider")]
 	public class UniversalAssetBundleProvider : ResourceProviderBase
-	// #if UNITY_IOS
-	// , IAssetBundleResource
-	// #endif
 	{
 #if UNITY_ANDROID
 		private AssetBundles.GooglePlayAssetDelivery.ResourceProviders.GoogleAssetBundleAsyncProvider m_provider = new AssetBundles.GooglePlayAssetDelivery.ResourceProviders.GoogleAssetBundleAsyncProvider();
@@ -42,7 +38,6 @@ namespace AssetBundles.ResourceProviders
 		
 		public override bool Initialize(string id, string data)
 		{
-			//m_provider.Initialize(this);
 			UDebug.Log($"[AssetBundles] UniversalResourceProvider.Initialize: {id}, data: {data}");
 			return base.Initialize(id, data);
 		}
@@ -62,11 +57,6 @@ namespace AssetBundles.ResourceProviders
 	    {
 		    m_provider?.Release(location, asset);
 	    }
-		
-		// public AssetBundle GetAssetBundle()
-		// {
-		// 	return m_provider?.GetAssetBundle();
-		// }
 #else
 		
 #endif

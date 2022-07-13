@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using AssetBundles.ResourceHandlers;
 using UnityEngine;
 
 namespace AssetBundles.AppleOnDemandResources.ResourceHandlers

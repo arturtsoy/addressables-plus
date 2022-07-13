@@ -14,12 +14,10 @@ namespace AssetBundles.AppleOnDemandResources.ResourceProviders
 	    {
 		    new ModularAssetBundleResource(false, new IAssetBundleResourceHandler[]
 		    {
-			    //new LocalAsyncAssetBundleResourceHandler(),
 #if UNITY_IOS
 			    new AssetPackAsyncAssetBundleResourceHandler(),
-			    //new JarAsyncAssetBundleResourceHandler(),
 #endif
-			    //new WebRequestAsyncAssetBundleResourceHandler(),
+			    new LocalAsyncAssetBundleResourceHandler(),
 		    }).Start(provideHandle);
 	    }
 

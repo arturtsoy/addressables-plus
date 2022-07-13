@@ -2,91 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c600b3-ffd3-442e-ac9f-d4db4bc21283" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/FastFollowTextures_OnDemandResourcesSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/FastFollowTextures_OnDemandResourcesSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/FastFollow_OnDemandResourcesSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/FastFollow_OnDemandResourcesSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/InstallTime_OnDemandResourcesSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/InstallTime_OnDemandResourcesSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World_OnDemandResourcesSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World_OnDemandResourcesSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/AssetPackBundleConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/AssetPackBundleConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ModularAssetBundleResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ModularAssetBundleResource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAssetBundleResourceHandlerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAssetBundleResourceHandlerBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/JarAsyncAssetBundleResourceHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/JarAsyncAssetBundleResourceHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/ModularAssetBundleResource.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables-Plus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables-Plus/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Addressables-Plus.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Addressables-Plus.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddressablesPlayAssetDelivery.Editor.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddressablesPlayAssetDelivery.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssetBundles.GooglePlayAssetDelivery.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles.GooglePlayAssetDelivery.Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssetBundles.GooglePlayAssetDelivery.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AssetBundles.GooglePlayAssetDelivery.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollow.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollowTextures.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollowTextures.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/InstallTime.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/InstallTime.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/World.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/World.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/iOS/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/iOS/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/OnDemandResourcesInitialization.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/OnDemandResourcesInitialization.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/OnDemandResourcesRuntimeData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/OnDemandResourcesRuntimeData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Data/UniversalAssetGroupTemplate.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Data/UniversalAssetGroupTemplate.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Editor/AssetPackBuilder.IOS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Editor/AssetPackBuilder.IOS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBuilder.Android.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackBuilder.Android.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AddressablesAssetDelivery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AddressablesAssetDelivery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleAsyncProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleAsyncProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleSyncProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleSyncProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ModularAssetBundleResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/ModularAssetBundleResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ModularAssetBundleResource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAssetBundleResourceHandlerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAssetBundleResourceHandlerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/AssetPackAsyncAssetBundleResourceHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/JarAsyncAssetBundleResourceHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/JarAsyncAssetBundleResourceHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetBundles.GooglePlayAssetDelivery.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetBundles.GooglePlayAssetDelivery.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AssetBundles.GooglePlayAssetDelivery.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AssetBundles.GooglePlayAssetDelivery.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ModularAssetBundleResource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ModularAssetBundleResource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetBundleResourceHandlerBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/LocalAsyncAssetBundleResourceHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/LocalSyncAssetBundleResourceHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/LocalSyncAssetBundleResourceHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/WebRequestAssetBundleResourceHandlerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/WebRequestAssetBundleResourceHandlerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceHandlers.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AssetPacks.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AssetPacks.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Android.AppBundle.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Android.AppBundle.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.AppUpdate.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.AppUpdate.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.AssetDelivery.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.AssetDelivery.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Billing.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Billing.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Instant.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Instant.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Instant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Instant.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google.Play.Review.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Google.Play.Review.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Play Asset Delivery.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StompyRobot.SRDebugger.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StompyRobot.SRDebugger.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StompyRobot.SRDebugger.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StompyRobot.SRDebugger.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StompyRobot.SRF.Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StompyRobot.SRF.Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StompyRobot.SRF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StompyRobot.SRF.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.Addressables.Editor.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.Addressables.Editor.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.Addressables.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.Addressables.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.ResourceManager.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity.ResourceManager.csproj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +46,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ModularAssetBundleResource.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/IAssetBundleResourceHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleAsyncProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -219,7 +167,7 @@
       <workItem from="1657691277545" duration="367000" />
       <workItem from="1657691918768" duration="249000" />
       <workItem from="1657692225359" duration="77000" />
-      <workItem from="1657692607677" duration="13823000" />
+      <workItem from="1657692607677" duration="16277000" />
     </task>
     <servers />
   </component>
@@ -247,32 +195,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>36</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="31" containingFunctionPresentation="method 'GetAssetBundle'">
-            <startOffsets>
-              <option value="1185" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1206" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>104</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="80" containingFunctionPresentation="method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="3975" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4035" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Runtime/ResourceManager/ResourceManager.cs</url>
           <line>524</line>
           <properties documentPath="$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Runtime/ResourceManager/ResourceManager.cs" initialLine="524" containingFunctionPresentation="method 'InvokeWaitForCompletion'">
@@ -286,19 +208,6 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>99</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="82" containingFunctionPresentation="method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="3602" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3630" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs</url>
           <line>72</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs" initialLine="72" containingFunctionPresentation="method 'Instantiate'">
@@ -310,32 +219,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs</url>
-          <line>52</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" initialLine="52" containingFunctionPresentation="method 'Provide'">
-            <startOffsets>
-              <option value="1931" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1966" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs</url>
-          <line>67</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" initialLine="67" containingFunctionPresentation="method 'GetAssetBundle'">
-            <startOffsets>
-              <option value="2298" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2334" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs</url>
@@ -364,19 +247,6 @@
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>60</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="55" containingFunctionPresentation="method 'Provide'">
-            <startOffsets>
-              <option value="2035" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2147" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs</url>
           <line>55</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs" initialLine="55" containingFunctionPresentation="method 'Instantiate'">
@@ -401,71 +271,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>121</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="97" containingFunctionPresentation="lambda expression inside method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="5581" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5690" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>116</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="92" containingFunctionPresentation="method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="5464" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5471" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>62</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="58" containingFunctionPresentation="lambda expression inside method 'Provide'">
-            <startOffsets>
-              <option value="2099" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2132" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>101</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="94" containingFunctionPresentation="method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="3658" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3772" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs</url>
-          <line>80</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleProvider.cs" initialLine="74" containingFunctionPresentation="method 'OnRequestCompleted'">
-            <startOffsets>
-              <option value="2622" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2709" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="92" />
         </line-breakpoint>
         <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.ObjectDisposedException" isInternal="false" displayValue="ObjectDisposedException" namespaceName="System">

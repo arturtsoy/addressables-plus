@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using AssetBundles.GooglePlayAssetDelivery.ResourceHandlers;
+using AssetBundles.AppleOnDemandResources.ResourceHandlers;
 using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
-namespace AssetBundles.GooglePlayAssetDelivery
+namespace AssetBundles
 {
     public class ModularAssetBundleResource : IAssetBundleResource
     {
@@ -26,7 +26,6 @@ namespace AssetBundles.GooglePlayAssetDelivery
         
         internal void Start(ProvideHandle provideHandle)
         {
-            
             m_ActiveHandler = null;
             this.m_ProvideHandle = provideHandle;
             m_Options = provideHandle.Location.Data as AssetBundleRequestOptions;

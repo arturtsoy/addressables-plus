@@ -64,7 +64,6 @@
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AssetPackBundleConfig.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceHandlers/AssetPackAssetBundleResourceHandlerBase.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/SyncBundledAssetProvider.cs" />
-     <None Include="Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/AssetBundles.GooglePlayAssetDelivery.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

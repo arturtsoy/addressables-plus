@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.ResourceManagement.ResourceProviders;
 
-namespace AssetBundles.GooglePlayAssetDelivery.ResourceHandlers
+namespace AssetBundles
 {
     public interface IAssetBundleResourceHandler
     {

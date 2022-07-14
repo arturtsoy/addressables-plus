@@ -50,6 +50,7 @@
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.cs" />
      <Compile Include="Assets/AssetBundles/GooglePlayAssetDelivery/Editor/AssetPackGroupSchema.cs" />
      <Compile Include="Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" />
+     <Compile Include="Assets/AssetBundles/Editor/PlatformSchema.cs" />
      <None Include="Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.169_manifest.txt" />
      <None Include="Assets/GooglePlayPlugins/com.google.play.core/Editor/PlayCoreDependencies.xml" />
      <Reference Include="UnityEngine">

@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5455c5638c18e6942884cb76bb2e51f0, type: 3}
-  m_Name: World2_OnDemandResourcesSchema
+  m_Script: {fileID: 11500000, guid: 0ab395b3bfec64593a15a71c8cded166, type: 3}
+  m_Name: CDNOther_PlatformSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: cb3285ea189e3aa4c9506626abf7fd31, type: 2}
+  m_Group: {fileID: 11400000, guid: 4fece6daedcf2cf4b8ea9708a34df508, type: 2}
+  m_platform: 100

@@ -124,7 +124,7 @@ MonoBehaviour:
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 3
+  m_ActivePlayerDataBuilderIndex: 4
   m_DataBuilders:
   - {fileID: 11400000, guid: e0fc630de13928248b9d77b5bb2dc9aa, type: 2}
   - {fileID: 11400000, guid: 407e65f9475b20544a4251fdfe26cfb0, type: 2}

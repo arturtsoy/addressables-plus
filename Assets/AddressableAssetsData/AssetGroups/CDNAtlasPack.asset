@@ -22,9 +22,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - default
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b5c09aef320017846b8c82aaae72d986, type: 2}
   m_SchemaSet:
     m_Schemas:
     - {fileID: 11400000, guid: 095cb918fd458094abe3527d6ce4955f, type: 2}
     - {fileID: 11400000, guid: d3b57521f54cf394690ba2071d47aa10, type: 2}
+    - {fileID: 11400000, guid: 561cd05276aa642469480798ca48ffad, type: 2}

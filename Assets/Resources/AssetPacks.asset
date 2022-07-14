@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: AssetPacks
   m_EditorClassIdentifier: 
   packs:
-  - fastfollow_assets_all_ffb74652c4976f5ba3435c909e47bb43.bundle
-  - installtime_assets_all_5f3da29bb446a276d2d86ba4cf0f0906.bundle
-  - odr-first_assets_all_56d386c2d28517b3746c51304c10ae3d.bundle
-  - ondemand_assets_all_92575f50c24d12c5e76b01215767ccc1.bundle
+  - odr-first_assets_all_5cb85fabc8590d90d5d7d66ab93bd2fd.bundle
+  - ondemand_assets_all_8e06f4aa11272a06106b6da105f2ca50.bundle
   - world2_assets_all_c271ef7acf3a528b089eeb7ae296ed6b.bundle
-  - world_assets_all_1bb755e0e95b68c0cb5194a3038d9867.bundle

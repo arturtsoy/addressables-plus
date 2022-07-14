@@ -4,11 +4,25 @@
     <list default="true" id="c6c600b3-ffd3-442e-ac9f-d4db4bc21283" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables-Plus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables-Plus/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/BuildProcessorData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesBuildProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Editor/OnDemandResourcesBuildProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/ModularAssetBundleResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/ModularAssetBundleResource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNAtlasPack.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNAtlasPack.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNOther.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNOther.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNTextures-UI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/CDNTextures-UI.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/FastFollow.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/InstallTime.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/InstallTime.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/ODR-First.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/ODR-First.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Resources.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Resources.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/CDNAtlasPack_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/CDNAtlasPack_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/InstallTime_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/InstallTime_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Resources_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Resources_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World2_OnDemandResourcesSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World2_OnDemandResourcesSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World_OnDemandResourcesSchema.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/World_OnDemandResourcesSchema.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/World.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/World.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/iOS/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/iOS/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AssetPacks.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AssetPacks.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +31,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/AppleOnDemandResources/Runtime/ResourceProviders/AppleAssetBundleAsyncProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/Editor/PlatformSchema.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/GooglePlayAssetDelivery/Runtime/ResourceProviders/GoogleAssetBundleAsyncProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AssetBundles/Runtime/ResourceProviders/UniversalAssetBundleProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/AddressableAssetSettingsDefaultObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/AddressablesDataBuilders.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/AddressableAssetsBuildContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptPackedMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptVirtualMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/GUI/AddressableAssetSettingsInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/GUI/AddressableAssetsSettingsGroupEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/AddressableAssetGroupSchema.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/AddressableAssetSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/CacheInitializationSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Settings/GroupSchemas/BundledAssetGroupSchema.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Runtime/Initialization/CheckCatalogsOperation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -46,6 +70,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Tests/Runtime/SyncAddressableTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.15.18/Editor/PlasticSCM/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/EditorPluginInterop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.31/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/UwpPlatformSetup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/DocCodeExamples/ActionExamples.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/UnityEvent/UnityEventInvoke.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01b464ef79fe45ed889bb3f6f84542f71f200/42/f4d35e4c/IGenericProviderOperation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,7 +78,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27acf4d83a024ea7b6090af03baef25d28600/16/831edd10/GUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2b6cd9c356fa4154818b2d4f59e73b65767c00/b1/4d70b6c7/EditorCompilation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3a49fefe966442beb6ce29d83177e7256000/3f/52bcab48/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3d721d59d99942a585ced249e28ec6ca1cc00/a3/0ff2f68b/VersionHandlerImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a2009c85b134970925993880e2ecb2e29fa00/a4/af3a2f05/Socket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/16/abdde9b5/Type.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/48/ec450db7/OperationCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/8f/f29b5e47/Enum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/cf/1d6e3d97/__Error.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,16 +106,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.16290131&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.16290131",
+    "nodejs_package_manager_path": "npm",
+    "rider.run.widget.enabled.cache": "false",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2020.3.34f1/Unity.app/Contents/MacOS/Unity" />
@@ -143,6 +171,8 @@
       <workItem from="1657692225359" duration="77000" />
       <workItem from="1657692607677" duration="18011000" />
       <workItem from="1657720434182" duration="35000" />
+      <workItem from="1657782726400" duration="316000" />
+      <workItem from="1657801143894" duration="5147000" />
     </task>
     <servers />
   </component>
@@ -246,6 +276,71 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptPackedMode.cs</url>
+          <line>227</line>
+          <properties documentPath="$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptPackedMode.cs" initialLine="227" containingFunctionPresentation="method 'DoBuild'">
+            <startOffsets>
+              <option value="9342" />
+            </startOffsets>
+            <endOffsets>
+              <option value="9414" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptPackedMode.cs</url>
+          <line>734</line>
+          <properties documentPath="$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptPackedMode.cs" initialLine="734" containingFunctionPresentation="method 'ProcessBundledAssetSchema'">
+            <startOffsets>
+              <option value="35341" />
+            </startOffsets>
+            <endOffsets>
+              <option value="35415" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs</url>
+          <line>71</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" initialLine="38" containingFunctionPresentation="method 'DoBuild'">
+            <startOffsets>
+              <option value="2598" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2662" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptBase.cs</url>
+          <line>137</line>
+          <properties documentPath="$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.20.3/Editor/Build/DataBuilders/BuildScriptBase.cs" initialLine="137" containingFunctionPresentation="method 'ProcessAllGroups'">
+            <startOffsets>
+              <option value="6157" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6278" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs</url>
+          <line>92</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/AssetBundles/Editor/BuildScriptUniversalDelivery.IOS.cs" initialLine="59" containingFunctionPresentation="method 'BuildCompleted'">
+            <startOffsets>
+              <option value="3333" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3368" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
           <properties exception="System.ObjectDisposedException" isInternal="false" displayValue="ObjectDisposedException" namespaceName="System">

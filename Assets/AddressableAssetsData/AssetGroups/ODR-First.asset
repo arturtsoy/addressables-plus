@@ -20,8 +20,8 @@ MonoBehaviour:
   - m_GUID: e5c1fc67d7180694cbc2d1be5033f905
     m_Address: Assets/PrefabsODR
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - odr
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b5c09aef320017846b8c82aaae72d986, type: 2}
   m_SchemaSet:
